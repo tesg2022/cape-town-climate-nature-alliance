@@ -1,0 +1,82 @@
+[
+  {
+    "Impact_ID":"EIA001",
+    "Environmental_Component":"Climate",
+    "Potential_Impact":"Changes in temperature and rainfall patterns",
+    "Required_Evidence":"Climate baseline and regional modelling",
+    "Current_Status":"Preliminary baseline only",
+    "Risk_Rating":"Not determined"
+  },
+  {
+    "Impact_ID":"EIA002",
+    "Environmental_Component":"Surface water",
+    "Potential_Impact":"Changes in water quantity and quality",
+    "Required_Evidence":"Water quality and hydrological observations",
+    "Current_Status":"Additional observations required",
+    "Risk_Rating":"Not determined"
+  },
+  {
+    "Impact_ID":"EIA003",
+    "Environmental_Component":"Groundwater",
+    "Potential_Impact":"Changes in groundwater chemistry or availability",
+    "Required_Evidence":"Groundwater baseline and monitoring",
+    "Current_Status":"Additional observations required",
+    "Risk_Rating":"Not determined"
+  },
+  {
+    "Impact_ID":"EIA004",
+    "Environmental_Component":"Soil",
+    "Potential_Impact":"Changes in soil chemistry and moisture",
+    "Required_Evidence":"Soil sampling and geochemical testing",
+    "Current_Status":"Additional observations required",
+    "Risk_Rating":"Not determined"
+  },
+  {
+    "Impact_ID":"EIA005",
+    "Environmental_Component":"Biodiversity",
+    "Potential_Impact":"Habitat disturbance or ecosystem changes",
+    "Required_Evidence":"Ecological surveys",
+    "Current_Status":"Specialist survey required",
+    "Risk_Rating":"Not determined"
+  },
+  {
+    "Impact_ID":"EIA006",
+    "Environmental_Component":"Air quality",
+    "Potential_Impact":"Dust or atmospheric emissions",
+    "Required_Evidence":"Air quality baseline and emissions assessment",
+    "Current_Status":"Air-quality data required",
+    "Risk_Rating":"Not determined"
+  },
+  {
+    "Impact_ID":"EIA007",
+    "Environmental_Component":"Marine environment",
+    "Potential_Impact":"Changes in marine chemistry and ecology",
+    "Required_Evidence":"Marine ecological and water-quality studies",
+    "Current_Status":"Marine study required if relevant",
+    "Risk_Rating":"Not determined"
+  },
+  {
+    "Impact_ID":"EIA008",
+    "Environmental_Component":"Land use",
+    "Potential_Impact":"Land disturbance and competing land uses",
+    "Required_Evidence":"Land-use and site assessment",
+    "Current_Status":"Site-specific information required",
+    "Risk_Rating":"Not determined"
+  },
+  {
+    "Impact_ID":"EIA009",
+    "Environmental_Component":"Community livelihoods",
+    "Potential_Impact":"Effects on livelihoods and access to resources",
+    "Required_Evidence":"Socioeconomic baseline and consultation",
+    "Current_Status":"Community data and consultation required",
+    "Risk_Rating":"Not determined"
+  },
+  {
+    "Impact_ID":"EIA010",
+    "Environmental_Component":"Public health",
+    "Potential_Impact":"Exposure to environmental health hazards",
+    "Required_Evidence":"Public-health specialist assessment",
+    "Current_Status":"Health data and specialist review required",
+    "Risk_Rating":"Not determined"
+  }
+]

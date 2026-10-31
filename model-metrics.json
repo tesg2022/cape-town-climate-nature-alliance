@@ -1,0 +1,15 @@
+[
+  {
+    "Model":"RandomForestRegressor",
+    "Target":"soil_moisture",
+    "Training_Records":1280,
+    "Testing_Records":338,
+    "Training_Locations":61,
+    "Testing_Locations":16,
+    "MAE":0.3521755167,
+    "RMSE":0.5679660903,
+    "R2":0.9502858939,
+    "Validation":"Spatial group holdout",
+    "Interpretation":"Predictive association; not causal intervention attribution"
+  }
+]

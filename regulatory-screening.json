@@ -1,0 +1,65 @@
+[
+  {
+    "Regulatory_Area":"Environmental authorisation",
+    "Legal_Framework":"National Environmental Management Act 107 of 1998 and EIA Regulations",
+    "Assessment_Requirement":"Determine whether listed activities trigger assessment",
+    "Status":"Legal review required",
+    "Permit_Determination":"Not determined"
+  },
+  {
+    "Regulatory_Area":"Water resources",
+    "Legal_Framework":"National Water Act 36 of 1998",
+    "Assessment_Requirement":"Screen water uses and possible authorisation requirements",
+    "Status":"Legal review required",
+    "Permit_Determination":"Not determined"
+  },
+  {
+    "Regulatory_Area":"Biodiversity",
+    "Legal_Framework":"National Environmental Management: Biodiversity Act 10 of 2004",
+    "Assessment_Requirement":"Assess species, habitats and ecological impacts",
+    "Status":"Legal review required",
+    "Permit_Determination":"Not determined"
+  },
+  {
+    "Regulatory_Area":"Protected areas",
+    "Legal_Framework":"National Environmental Management: Protected Areas Act 57 of 2003",
+    "Assessment_Requirement":"Check proximity to protected areas",
+    "Status":"Legal review required",
+    "Permit_Determination":"Not determined"
+  },
+  {
+    "Regulatory_Area":"Coastal and marine environment",
+    "Legal_Framework":"National Environmental Management: Integrated Coastal Management Act 24 of 2008",
+    "Assessment_Requirement":"Assess coastal or marine permissions where applicable",
+    "Status":"Legal review required",
+    "Permit_Determination":"Not determined"
+  },
+  {
+    "Regulatory_Area":"Air quality",
+    "Legal_Framework":"National Environmental Management: Air Quality Act 39 of 2004",
+    "Assessment_Requirement":"Screen emissions and licensing requirements",
+    "Status":"Legal review required",
+    "Permit_Determination":"Not determined"
+  },
+  {
+    "Regulatory_Area":"Waste management",
+    "Legal_Framework":"National Environmental Management: Waste Act 59 of 2008",
+    "Assessment_Requirement":"Assess waste classification and disposal",
+    "Status":"Legal review required",
+    "Permit_Determination":"Not determined"
+  },
+  {
+    "Regulatory_Area":"Heritage resources",
+    "Legal_Framework":"National Heritage Resources Act 25 of 1999",
+    "Assessment_Requirement":"Screen heritage and archaeological requirements",
+    "Status":"Legal review required",
+    "Permit_Determination":"Not determined"
+  },
+  {
+    "Regulatory_Area":"Land use and planning",
+    "Legal_Framework":"Applicable municipal planning legislation and by-laws",
+    "Assessment_Requirement":"Confirm land-use rights and municipal approvals",
+    "Status":"Legal review required",
+    "Permit_Determination":"Not determined"
+  }
+]

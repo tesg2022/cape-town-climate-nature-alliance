@@ -1,0 +1,34 @@
+[
+  {
+    "Indicator":"Total records",
+    "Result":"1685"
+  },
+  {
+    "Indicator":"Number of variables",
+    "Result":"23"
+  },
+  {
+    "Indicator":"Unique geographic locations",
+    "Result":"77"
+  },
+  {
+    "Indicator":"Start year",
+    "Result":"2002"
+  },
+  {
+    "Indicator":"Last available year",
+    "Result":"2026"
+  },
+  {
+    "Indicator":"Missing years",
+    "Result":"[]"
+  },
+  {
+    "Indicator":"Missing values",
+    "Result":"0"
+  },
+  {
+    "Indicator":"Boundary validation",
+    "Result":"Not validated"
+  }
+]

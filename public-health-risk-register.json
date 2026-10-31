@@ -1,0 +1,50 @@
+[
+  {
+    "Risk_ID":"PH001",
+    "Risk_Pathway":"Dust inhalation",
+    "Potential_Receptor":"Nearby residents and workers",
+    "Evidence_Required":"Particulate monitoring and exposure assessment",
+    "Status":"Not assessed",
+    "Responsible_Specialist":"Air-quality specialist"
+  },
+  {
+    "Risk_ID":"PH002",
+    "Risk_Pathway":"Air pollution",
+    "Potential_Receptor":"Residents and workers",
+    "Evidence_Required":"Emissions inventory and air monitoring",
+    "Status":"Not assessed",
+    "Responsible_Specialist":"Air-quality specialist"
+  },
+  {
+    "Risk_ID":"PH003",
+    "Risk_Pathway":"Drinking-water contamination",
+    "Potential_Receptor":"Water users",
+    "Evidence_Required":"Water chemistry and contaminant testing",
+    "Status":"Not assessed",
+    "Responsible_Specialist":"Water-quality specialist"
+  },
+  {
+    "Risk_ID":"PH004",
+    "Risk_Pathway":"Heat exposure",
+    "Potential_Receptor":"Vulnerable residents",
+    "Evidence_Required":"Heat-health data and exposure modelling",
+    "Status":"Screening only",
+    "Responsible_Specialist":"Public-health specialist"
+  },
+  {
+    "Risk_ID":"PH005",
+    "Risk_Pathway":"Occupational exposure",
+    "Potential_Receptor":"Project workers",
+    "Evidence_Required":"Occupational health assessment",
+    "Status":"Not assessed",
+    "Responsible_Specialist":"Occupational-health specialist"
+  },
+  {
+    "Risk_ID":"PH006",
+    "Risk_Pathway":"Marine food-chain exposure",
+    "Potential_Receptor":"Coastal communities and consumers",
+    "Evidence_Required":"Marine contaminant and food-safety assessment",
+    "Status":"Not assessed",
+    "Responsible_Specialist":"Marine and public-health specialists"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "Technology":"Enhanced Rock Weathering",
+    "Primary_Purpose":"Potential mineral carbon removal",
+    "Environmental_Assessment_Needs":"Rock chemistry, soil, groundwater, dust and biodiversity",
+    "Social_Health_Assessment_Needs":"Land access, dust exposure and agricultural impacts",
+    "Field_Test_Readiness":"Evidence required from applicant",
+    "Assessment_Status":"Not assessed"
+  },
+  {
+    "Technology":"Biochar",
+    "Primary_Purpose":"Potential durable biomass carbon storage",
+    "Environmental_Assessment_Needs":"Feedstock, pyrolysis emissions, soil and contaminants",
+    "Social_Health_Assessment_Needs":"Worker exposure, air quality and feedstock livelihoods",
+    "Field_Test_Readiness":"Evidence required from applicant",
+    "Assessment_Status":"Not assessed"
+  },
+  {
+    "Technology":"Marine Carbon Dioxide Removal",
+    "Primary_Purpose":"Potential ocean carbon uptake or storage",
+    "Environmental_Assessment_Needs":"Marine chemistry, habitats, fisheries and carbon permanence",
+    "Social_Health_Assessment_Needs":"Fisheries, coastal livelihoods and water quality",
+    "Field_Test_Readiness":"Evidence required from applicant",
+    "Assessment_Status":"Not assessed"
+  },
+  {
+    "Technology":"Marine Cloud Brightening",
+    "Primary_Purpose":"Solar radiation modification",
+    "Environmental_Assessment_Needs":"Cloud processes, regional climate and marine ecosystems",
+    "Social_Health_Assessment_Needs":"Regional climate risks and public legitimacy",
+    "Field_Test_Readiness":"Evidence required from applicant",
+    "Assessment_Status":"Not assessed"
+  },
+  {
+    "Technology":"Stratospheric Aerosol Intervention",
+    "Primary_Purpose":"Solar radiation modification",
+    "Environmental_Assessment_Needs":"Atmospheric chemistry, climate response and transboundary risk",
+    "Social_Health_Assessment_Needs":"Global governance, distributional risks and public legitimacy",
+    "Field_Test_Readiness":"Evidence required from applicant",
+    "Assessment_Status":"Not assessed"
+  }
+]

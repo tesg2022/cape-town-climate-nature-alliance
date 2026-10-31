@@ -1,179 +1,65 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Cape Town Climate-Nature Alliance — multidisciplinary research for climate resilience, environmental stewardship and responsible climate intervention governance.">
-<meta name="theme-color" content="#102b2b">
-<title>Cape Town Climate-Nature Alliance (CTCNA)</title>
-<link rel="stylesheet" href="style/style.css">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ClimateNatureAI | CTCNA Environmental Assessment</title>
+<meta name="description" content="Preliminary environmental assessment workspace for the Cape Town Climate-Nature Alliance.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<style>
+:root{--forest:#123d32;--green:#24765f;--teal:#42a58a;--ink:#1d302a;--muted:#64756e;--paper:#f4f7f4;--line:#dce6df;--white:#fff;--amber:#9b6414}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:"DM Sans",sans-serif}header{background:linear-gradient(115deg,#10392f,#1e6652);color:#fff;padding:28px max(22px,calc((100vw - 1180px)/2)) 26px}
+.brand{font-size:13px;letter-spacing:.15em;text-transform:uppercase;color:#b9d8cb;font-weight:700}.hero{display:flex;justify-content:space-between;gap:24px;align-items:end;flex-wrap:wrap}.hero h1{font:800 clamp(28px,4vw,44px) Manrope;margin:12px 0 8px}.hero p{max-width:760px;color:#d9e9e1;line-height:1.6;margin:0}.status{border:1px solid #9bc8b6;border-radius:999px;padding:9px 13px;color:#e4f3eb;font-size:12px;font-weight:700}
+nav{background:#fff;border-bottom:1px solid var(--line);padding:0 max(22px,calc((100vw - 1180px)/2));display:flex;gap:8px;overflow:auto}nav a{padding:15px 12px;color:var(--muted);text-decoration:none;white-space:nowrap;font-size:13px;font-weight:700}nav a:hover{color:var(--green)}
+main{max-width:1180px;margin:26px auto;padding:0 20px}.notice{background:#fff8e9;border:1px solid #f0d9a9;border-left:4px solid #c48a2e;border-radius:10px;padding:15px 17px;line-height:1.55;margin-bottom:20px;font-size:13px}.notice strong{color:#754a0c}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.metric,.panel{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px;box-shadow:0 3px 12px #173d2b08}.metric .value{font:800 28px Manrope;color:var(--forest)}.metric .label{font-size:12px;color:var(--muted);margin-top:4px}.section{margin:28px 0}.section h2{font:800 21px Manrope;margin:0 0 5px}.sub{color:var(--muted);font-size:13px;margin:0 0 15px;line-height:1.5}.two{display:grid;grid-template-columns:1.15fr .85fr;gap:15px}.panel h3{font:700 15px Manrope;margin:0 0 12px}.panel img{max-width:100%;height:auto;border-radius:8px}.chart-wrap{height:300px}.table-wrap{overflow:auto;max-height:430px;border:1px solid var(--line);border-radius:10px}table{border-collapse:collapse;width:100%;font-size:12px;background:white}th,td{padding:10px 11px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}th{background:#edf4ef;color:#28483b;position:sticky;top:0}td{max-width:320px;overflow-wrap:anywhere}.tag{display:inline-block;padding:5px 8px;border-radius:99px;background:#edf5f0;color:#24634f;font-size:11px;font-weight:700}.muted{color:var(--muted)}.footer{padding:24px 0 40px;color:var(--muted);font-size:12px;line-height:1.6}
+@media(max-width:850px){.grid{grid-template-columns:repeat(2,1fr)}.two{grid-template-columns:1fr}}@media(max-width:480px){.grid{grid-template-columns:1fr 1fr}.metric{padding:13px}.metric .value{font-size:22px}}
+</style>
 </head>
 <body>
-<header>
-  <div class="container nav">
-    <a class="brand" href="#home" aria-label="CTCNA home"><span class="brand-mark">✳</span><span>CTCNA<small>CAPE TOWN CLIMATE-NATURE ALLIANCE</small></span></a>
-    <button class="menu-btn" id="menuBtn" aria-label="Open navigation" aria-expanded="false">☰</button>
-    <nav class="navlinks" id="navLinks" aria-label="Main navigation">
-      <a href="#about">About</a><a href="#research">Research</a><a href="#platform">ClimateNatureAI</a><a href="#project">CIEIF initiative</a><a href="#governance">Governance</a>
-    </nav>
-    <a class="nav-cta" href="#contact">Connect with CTCNA ↗</a>
-  </div>
-</header>
-
+<header><div class="brand">Cape Town Climate-Nature Alliance</div><div class="hero"><div><h1>ClimateNatureAI</h1><p>Environmental intelligence and preliminary climate-intervention assessment workspace. Integrating geospatial evidence, environmental indicators and responsible assessment workflows for Cape Town.</p></div><div class="status">PRELIMINARY RESEARCH ASSESSMENT</div></div></header>
+<nav><a href="#overview">Overview</a><a href="#baseline">Environmental baseline</a><a href="#water">Water & soil moisture</a><a href="#vulnerability">Vulnerability</a><a href="#model">Model assessment</a><a href="#governance">Impact & governance</a></nav>
 <main>
-<section class="hero" id="home">
-  <div class="container hero-grid">
-    <div>
-      <div class="eyebrow">Climate • Water • Biodiversity • Resilience</div>
-      <h1>Science for a climate-resilient Cape Town.</h1>
-      <p>The Cape Town Climate-Nature Alliance (CTCNA) is a multidisciplinary research consortium advancing evidence-based climate resilience, environmental stewardship, and responsible climate intervention governance.</p>
-      <div class="hero-actions"><a class="btn light" href="#about">Discover the Alliance</a><a class="btn outline" href="#research">Explore our research ↓</a></div>
-    </div>
-    <aside class="hero-card" aria-label="Alliance focus areas">
-      <div class="mini">Our shared mission</div>
-      <h2>Connect environmental science with responsible decisions.</h2>
-      <div class="orbit">
-        <div><b>01</b>Climate intelligence</div><div><b>02</b>Water security</div>
-        <div><b>03</b>Nature & biodiversity</div><div><b>04</b>Environmental governance</div>
-      </div>
-      <div class="hero-note">Cape Town, Western Cape · South Africa</div>
-    </aside>
-  </div>
-</section>
-
-<section id="about">
-  <div class="container">
-    <div class="section-head"><div><div class="section-kicker">Who we are</div><h2>A collaborative platform for climate and nature research.</h2></div><p>CTCNA brings complementary disciplines together to understand environmental change and strengthen the evidence behind climate-related decisions.</p></div>
-    <div class="intro-grid">
-      <div><p>Our work connects climate science, hydrology, environmental modelling, geospatial analytics, biodiversity, public participation and environmental governance. We aim to support researchers, communities, public institutions and decision-makers with accessible, transparent and decision-relevant knowledge.</p><p>Based in Cape Town, the Alliance focuses on locally relevant challenges while building methods and partnerships that can inform climate resilience across the Western Cape, South Africa and wider regions.</p></div>
-      <div class="principles">
-        <div class="principle"><b>Evidence first</b><span>Use documented data, methods and independent scientific scrutiny.</span></div>
-        <div class="principle"><b>People-centred</b><span>Recognise community knowledge, participation, equity and public health.</span></div>
-        <div class="principle"><b>Nature-positive</b><span>Consider ecosystem integrity, biodiversity and long-term environmental health.</span></div>
-        <div class="principle"><b>Transparent governance</b><span>Make risks, uncertainty, assumptions and decisions open to review.</span></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="pillars" id="research">
-  <div class="container">
-    <div class="section-head"><div><div class="section-kicker">Research & action</div><h2>Four connected areas of work.</h2></div><p>Our research agenda links environmental observation and modelling with impact assessment, stakeholder engagement and responsible governance.</p></div>
-    <div class="cards">
-      <article class="card"><div class="card-icon">☀</div><h3>Climate intelligence</h3><p>Understand climate variability, drought, heat and changing environmental conditions.</p><ul><li>Climate-risk and vulnerability analysis</li><li>Historical trends and scenario assessment</li><li>Climate adaptation evidence</li></ul></article>
-      <article class="card"><div class="card-icon">≈</div><h3>Water & hydrology</h3><p>Advance understanding of water resources and catchment responses under climate pressure.</p><ul><li>Soil moisture and water storage</li><li>Groundwater recharge potential</li><li>Flood, runoff and drought assessment</li></ul></article>
-      <article class="card"><div class="card-icon">❋</div><h3>Biodiversity & nature</h3><p>Support ecosystem stewardship and nature-based approaches to resilience.</p><ul><li>Vegetation and ecosystem condition</li><li>Biodiversity sensitivity screening</li><li>Nature-based solution opportunities</li></ul></article>
-      <article class="card"><div class="card-icon">⌘</div><h3>Impact & governance</h3><p>Evaluate potential consequences of climate interventions before decisions are made.</p><ul><li>Environmental and social impact assessment</li><li>Public health and regulatory screening</li><li>Stakeholder engagement and MRV</li></ul></article>
-    </div>
-  </div>
-</section>
-
-<section id="platform">
-  <div class="container platform">
-    <div class="platform-visual">
-      <div class="visual-top"><span>CTCNA research platform</span><span>01 / 04</span></div>
-      <div class="coordinate">Illustrative location profile<strong>ClimateNatureAI</strong></div>
-      <div class="visual-grid">
-        <div><b>Climate</b>Variability & drought</div><div><b>Water</b>Storage & soil moisture</div>
-        <div><b>Flood</b>Saturation & runoff risk</div><div><b>Nature</b>Vegetation & NbS options</div>
-      </div>
-    </div>
-    <div class="platform-copy">
-      <div class="section-kicker">Our enabling platform</div>
-      <h2>ClimateNatureAI turns environmental data into decision-ready insight.</h2>
-      <p>ClimateNatureAI is the Alliance’s integrated environmental intelligence and assessment platform. It is designed to connect location-based climate, water, flood, ecosystem and nature-based solution information with predictive analysis and auditable reporting.</p>
-      <div class="checklist">
-        <div class="check"><i>✓</i><span>Coordinate-based environmental profiles</span></div>
-        <div class="check"><i>✓</i><span>Environmental vulnerability screening</span></div>
-        <div class="check"><i>✓</i><span>Predictive and scenario analysis</span></div>
-        <div class="check"><i>✓</i><span>GIS-ready and reproducible outputs</span></div>
-        <div class="check"><i>✓</i><span>Stakeholder and field-observation workflows</span></div>
-        <div class="check"><i>✓</i><span>Transparent assumptions and uncertainty</span></div>
-      </div>
-      <p style="font-size:12px;margin-top:20px">The platform is being advanced through staged integration of validated Earth-observation and environmental monitoring datasets.</p>
-    </div>
-  </div>
-</section>
-
-<section class="project" id="project">
-  <div class="container">
-    <div class="section-head"><div><div class="section-kicker">Flagship initiative</div><h2>Responsible climate intervention assessment in Cape Town.</h2></div><p>CTCNA’s proposed CIEIF-aligned initiative places environmental oversight, predictive impact assessment and public participation before any field deployment.</p></div>
-    <div class="project-grid">
-      <div class="project-box">
-        <h3>ClimateNatureAI for environmental oversight</h3>
-        <p>The initiative proposes to use ClimateNatureAI to assess environmental, hydrological, ecological, social and governance implications associated with a proposed soil-moisture preservation and carbon-sequestration intervention, including biochar-enhanced biodegradable hydrogel composites as a case study.</p>
-        <ul><li>Environmental baseline and impact assessment</li><li>Predictive environmental and social modelling</li><li>Public-health and ecological risk screening</li><li>Regulatory pathway and permit assessment</li><li>Monitoring, reporting and verification planning</li></ul>
-      </div>
-      <div class="project-box">
-        <h3>From prototype to validated evidence</h3>
-        <p>The project roadmap is designed to strengthen data provenance, model validation, uncertainty reporting and independent review.</p>
-        <div class="phase-list">
-          <div class="phase"><span>PHASE 01</span><div><b>Data integration</b><small>Connect Earth-observation and environmental monitoring sources.</small></div></div>
-          <div class="phase"><span>PHASE 02</span><div><b>Validation</b><small>Test model skill, document limitations and report uncertainty.</small></div></div>
-          <div class="phase"><span>PHASE 03</span><div><b>Engagement</b><small>Integrate community knowledge, feedback and field observations.</small></div></div>
-          <div class="phase"><span>PHASE 04</span><div><b>Governance support</b><small>Provide auditable evidence for independent and regulatory review.</small></div></div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="evidence">
-  <div class="container">
-    <div class="section-head"><div><div class="section-kicker">Research evidence</div><h2>Building on a Cape Town environmental baseline.</h2></div><p>Initial project files include a multi-year environmental sample and preliminary spatial and predictive assessment outputs.</p></div>
-    <div class="metrics">
-      <div class="metric"><strong>2002–2025</strong><span>Historical baseline period</span></div>
-      <div class="metric"><strong>1,685</strong><span>Environmental records in supplied CSV</span></div>
-      <div class="metric"><strong>77</strong><span>Unique sampled coordinates</span></div>
-      <div class="metric"><strong>2026</strong><span>Year-to-date data included</span></div>
-    </div>
-    <div class="notice"><b>Scientific transparency:</b> These figures describe the supplied preliminary assessment files, not a complete municipal monitoring network. The project summary flags the City boundary as not yet validated and the intervention as not yet specified. Modelled soil-moisture relationships do not establish causal intervention effects. Community exposure, public-health impacts, permits and intervention-specific outcomes require additional datasets, specialist review and field evidence.</div>
-    <p class="evidence-foot">The supplied assessment archive reports a Random Forest soil-moisture model evaluated using spatial group holdout (R² ≈ 0.95; MAE ≈ 0.35; RMSE ≈ 0.57 in the source data’s soil-moisture units). These are preliminary model metrics and should be interpreted alongside the limited sample size, data provenance and validation limitations.</p>
-  </div>
-</section>
-
-<section id="governance">
-  <div class="container governance-grid">
-    <div>
-      <div class="section-kicker">Responsible research</div>
-      <h2>Trust, safeguards and accountability are part of the science.</h2>
-      <p>Climate intervention and nature-based approaches must be assessed with care. CTCNA’s approach places environmental integrity, transparent evidence and meaningful participation at the centre of research planning.</p>
-    </div>
-    <div class="governance-list">
-      <div class="gov-item"><div class="gov-num">01</div><div><b>Environmental safeguards</b><span>Screen soil, water, groundwater, biodiversity and ecosystem impact pathways.</span></div></div>
-      <div class="gov-item"><div class="gov-num">02</div><div><b>Community participation</b><span>Engage affected communities, farmers, civil society and public institutions early.</span></div></div>
-      <div class="gov-item"><div class="gov-num">03</div><div><b>Regulatory readiness</b><span>Identify relevant authorisations and ensure activities do not proceed without required approvals.</span></div></div>
-      <div class="gov-item"><div class="gov-num">04</div><div><b>Independent review</b><span>Invite specialist scrutiny of methods, assumptions, findings and uncertainty.</span></div></div>
-      <div class="gov-item"><div class="gov-num">05</div><div><b>Open and reproducible science</b><span>Share non-sensitive outputs, documented workflows and reviewable evidence.</span></div></div>
-    </div>
-  </div>
-</section>
-
-<section class="partners">
-  <div class="container partner-band">
-    <div><div class="section-kicker">A multidisciplinary alliance</div><h2>Better climate decisions emerge from collaboration.</h2><p>CTCNA seeks collaboration across research, public institutions, civil society and communities. The consortium’s partner and membership roster should be confirmed before public launch.</p></div>
-    <div class="partner-types"><span>Universities & research centres</span><span>Climate scientists</span><span>Hydrologists</span><span>GIS & GeoAI specialists</span><span>Biodiversity practitioners</span><span>Municipal & public agencies</span><span>Community organisations</span><span>Environmental NGOs</span><span>Independent reviewers</span></div>
-  </div>
-</section>
-
-<section class="contact" id="contact">
-  <div class="container">
-    <div class="contact-panel">
-      <div><h2>Work with us for a resilient Cape Town.</h2><p>We welcome research collaboration, technical partnerships, community knowledge, independent expertise and institutional engagement.</p></div>
-      <a class="btn" href="mailto:?subject=CTCNA%20Research%20Collaboration&body=I%20would%20like%20to%20learn%20more%20about%20the%20Cape%20Town%20Climate-Nature%20Alliance.">Start a conversation ↗</a>
-    </div>
-    <p style="font-size:11px;color:#71817b;margin:14px 4px 0">Before publishing, replace this general email link with the Alliance’s approved contact address and add confirmed institutional, partner and governance details.</p>
-  </div>
-</section>
+<div class="notice"><strong>Important evidence notice.</strong> This release is a static research dashboard generated from the supplied assessment package. The study-area boundary is not validated; intervention selection and impact attribution are not yet available. Model metrics are preliminary. Outputs must not be interpreted as operational advice, measured groundwater levels, proof of intervention effectiveness, or regulatory approval.</div>
+<section id="overview" class="section"><h2>Assessment overview</h2><p class="sub">Project metadata and coverage reported in the supplied assessment summary.</p><div class="grid">
+<div class="metric"><div class="value" id="records">—</div><div class="label">Assessment records</div></div>
+<div class="metric"><div class="value" id="coords">—</div><div class="label">Unique coordinates</div></div>
+<div class="metric"><div class="value" id="period">—</div><div class="label">Historical baseline</div></div>
+<div class="metric"><div class="value" id="budget">—</div><div class="label">Draft CIEIF budget (USD)</div></div>
+</div></section>
+<section id="baseline" class="section"><h2>Environmental baseline</h2><p class="sub">Baseline and annual environmental statistics from the supplied CSV records. Variable names and units are retained from source data.</p><div class="panel"><div class="table-wrap"><table id="baseline-table"><thead></thead><tbody></tbody></table></div></div></section>
+<section id="water" class="section"><h2>Water and soil-moisture intelligence</h2><p class="sub">The source package includes GLDAS Noah 0–10 cm soil-moisture records and a preliminary Random Forest model. Soil moisture is not a direct groundwater-level observation.</p><div class="two"><div class="panel"><h3>Annual soil-moisture trend (source image)</h3><img src="assets/25_Soil_Moisture_Annual_Trend.png" alt="Soil moisture annual trend from source package"></div><div class="panel"><h3>Model validation (source image)</h3><img src="assets/24_Soil_Moisture_Model_Validation.png" alt="Soil moisture model validation from source package"></div></div></section>
+<section id="vulnerability" class="section"><h2>Environmental vulnerability</h2><p class="sub">Preliminary screening index and hotspot summaries. Boundary and location membership require validation before site-level interpretation.</p><div class="two"><div class="panel"><h3>Supplied vulnerability map</h3><img src="assets/23_CapeTown_Environmental_Vulnerability.png" alt="Preliminary environmental vulnerability map"></div><div class="panel"><h3>Vulnerability class summary</h3><div class="table-wrap"><table id="vulnerability-table"><thead></thead><tbody></tbody></table></div></div></div></section>
+<section id="model" class="section"><h2>AI model assessment</h2><p class="sub">Reported metrics are reproduced from the assessment metadata and should be independently re-run before external claims.</p><div class="grid" id="model-metrics"></div><div class="panel" style="margin-top:14px"><h3>Feature importance (source records)</h3><div class="table-wrap"><table id="feature-table"><thead></thead><tbody></tbody></table></div></div></section>
+<section id="governance" class="section"><h2>Impact assessment and governance</h2><p class="sub">Registers are evidence-management tools. A listed risk, screening result or regulatory item is not a final specialist determination or permit decision.</p><div class="grid">
+<div class="metric"><div class="value" id="impact-count">—</div><div class="label">Environmental impact entries</div></div>
+<div class="metric"><div class="value" id="health-count">—</div><div class="label">Public-health screening entries</div></div>
+<div class="metric"><div class="value" id="reg-count">—</div><div class="label">Regulatory screening entries</div></div>
+<div class="metric"><div class="value" id="uncertainty-count">—</div><div class="label">Uncertainty entries</div></div>
+</div><div class="panel" style="margin-top:14px"><h3>Environmental impact register</h3><div class="table-wrap"><table id="impact-table"><thead></thead><tbody></tbody></table></div></div><div class="panel" style="margin-top:14px"><h3>Regulatory screening register</h3><div class="table-wrap"><table id="reg-table"><thead></thead><tbody></tbody></table></div></div></section>
+<div class="footer">Source: ClimateNatureAI_CapeTown_CIEIF_Assessment.zip supplied for this deployment. Data displayed here are source-derived and have not been independently reprocessed or validated in this static release. The platform does not currently connect to a live API or database. © CTCNA / ClimateNatureAI — research deployment.</div>
 </main>
-
-<footer>
-  <div class="container footer-row">
-    <div><div class="footer-brand">Cape Town Climate-Nature Alliance</div><div class="footer-small">Climate resilience · Environmental stewardship · Responsible governance</div></div>
-    <div class="footer-links"><a href="#about">About</a><a href="#research">Research</a><a href="#platform">ClimateNatureAI</a><a href="#contact">Contact</a></div>
-    <div class="footer-small">© <span id="year"></span> CTCNA · Cape Town, South Africa</div>
-  </div>
-</footer>
-<script src="js/app.js" defer></script>
-</body>
-</html>
+<script>
+const D='data/';
+async function load(name){try{const r=await fetch(D+name);if(!r.ok)throw new Error(r.status);return await r.json()}catch(e){return []}}
+function table(id,rows){const el=document.getElementById(id);if(!el||!rows?.length){if(el)el.innerHTML='<tbody><tr><td>No records available in this release.</td></tr></tbody>';return}const cols=Object.keys(rows[0]);el.innerHTML='<thead><tr>'+cols.map(c=>'<th>'+esc(c)+'</th>').join('')+'</tr></thead><tbody>'+rows.slice(0,150).map(r=>'<tr>'+cols.map(c=>'<td>'+esc(r[c])+'</td>').join('')+'</tr>').join('')+'</tbody>'}
+function esc(v){return String(v??'—').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+(async()=>{
+const s=await load('assessment-summary.json');
+document.getElementById('records').textContent=(s.Total_Records??'—').toLocaleString();
+document.getElementById('coords').textContent=s.Unique_Coordinates??'—';
+document.getElementById('period').textContent=s.Historical_Baseline??'—';
+document.getElementById('budget').textContent=s.CIEIF_Budget_USD?'$'+Number(s.CIEIF_Budget_USD).toLocaleString():'—';
+const base=await load('baseline-statistics.json');table('baseline-table',base);
+const v=await load('vulnerability-classes.json');table('vulnerability-table',v);
+const f=await load('feature-importance.json');table('feature-table',f);
+const imp=await load('environmental-impact-register.json');table('impact-table',imp);document.getElementById('impact-count').textContent=imp.length;
+const reg=await load('regulatory-screening.json');table('reg-table',reg);document.getElementById('reg-count').textContent=reg.length;
+const health=await load('public-health-risk-register.json');document.getElementById('health-count').textContent=health.length;
+const unc=await load('uncertainty-assessment.json');document.getElementById('uncertainty-count').textContent=unc.length;
+const m=[['R²',s.Model_R2],['MAE',s.Model_MAE],['RMSE',s.Model_RMSE]];
+document.getElementById('model-metrics').innerHTML=m.map(x=>'<div class="metric"><div class="value">'+Number(x[1]).toFixed(4)+'</div><div class="label">'+x[0]+'</div></div>').join('');
+})();
+</script>
+</body></html>

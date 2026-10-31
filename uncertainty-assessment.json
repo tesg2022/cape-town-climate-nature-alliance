@@ -1,0 +1,42 @@
+[
+  {
+    "Variable":"rainfall_mm",
+    "Historical_Mean":583.4281723063,
+    "Bootstrap_Lower_95":514.4842195438,
+    "Bootstrap_Upper_95":658.1746741165,
+    "Number_of_Annual_Observations":24,
+    "Method":"Bootstrap of annual means; descriptive uncertainty only"
+  },
+  {
+    "Variable":"temperature_C",
+    "Historical_Mean":26.559013646,
+    "Bootstrap_Lower_95":26.1441660848,
+    "Bootstrap_Upper_95":26.9216571759,
+    "Number_of_Annual_Observations":24,
+    "Method":"Bootstrap of annual means; descriptive uncertainty only"
+  },
+  {
+    "Variable":"soil_moisture",
+    "Historical_Mean":18.1696202013,
+    "Bootstrap_Lower_95":17.8072827266,
+    "Bootstrap_Upper_95":18.5604109048,
+    "Number_of_Annual_Observations":24,
+    "Method":"Bootstrap of annual means; descriptive uncertainty only"
+  },
+  {
+    "Variable":"NDVI",
+    "Historical_Mean":0.441412827,
+    "Bootstrap_Lower_95":0.4328786803,
+    "Bootstrap_Upper_95":0.4494548797,
+    "Number_of_Annual_Observations":24,
+    "Method":"Bootstrap of annual means; descriptive uncertainty only"
+  },
+  {
+    "Variable":"elevation_m",
+    "Historical_Mean":140.4877802546,
+    "Bootstrap_Lower_95":140.4626865672,
+    "Bootstrap_Upper_95":140.5379676294,
+    "Number_of_Annual_Observations":24,
+    "Method":"Bootstrap of annual means; descriptive uncertainty only"
+  }
+]
