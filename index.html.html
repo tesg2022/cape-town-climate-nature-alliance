@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Cape Town Climate-Nature Alliance — multidisciplinary research for climate resilience, environmental stewardship and responsible climate intervention governance.">
+<meta name="theme-color" content="#102b2b">
+<title>Cape Town Climate-Nature Alliance (CTCNA)</title>
+<style>
+:root{--ink:#132d2b;--muted:#5d706c;--paper:#f6f7f1;--white:#fff;--green:#246b55;--lime:#c5dc83;--blue:#b9d9dc;--line:#dce4dc;--sand:#e9e4d4;--shadow:0 18px 50px rgba(13,43,38,.10);--radius:22px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.6}a{color:inherit;text-decoration:none}button{font:inherit}.container{width:min(1160px,calc(100% - 44px));margin:auto}
+header{position:sticky;top:0;z-index:20;background:rgba(246,247,241,.92);backdrop-filter:blur(14px);border-bottom:1px solid rgba(19,45,43,.09)}
+.nav{height:78px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{display:flex;align-items:center;gap:12px;font-weight:800;letter-spacing:-.03em}.brand-mark{width:42px;height:42px;border-radius:14px;background:var(--ink);display:grid;place-items:center;color:var(--lime);font-size:23px}.brand small{display:block;font-size:10px;letter-spacing:.16em;color:var(--muted);font-weight:700;margin-top:-3px}.navlinks{display:flex;align-items:center;gap:25px;font-size:13px;font-weight:650;color:#405650}.navlinks a:hover{color:var(--green)}.nav-cta,.btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 18px;border-radius:999px;background:var(--green);color:white;font-weight:750;font-size:13px;border:1px solid var(--green);transition:.2s}.nav-cta:hover,.btn:hover{background:var(--ink);border-color:var(--ink);transform:translateY(-1px)}.menu-btn{display:none;background:none;border:0;color:var(--ink);font-size:25px}
+.hero{position:relative;overflow:hidden;background:var(--ink);color:white;padding:94px 0 86px}.hero:before{content:"";position:absolute;width:660px;height:660px;border:1px solid rgba(197,220,131,.22);border-radius:50%;right:-130px;top:-330px;box-shadow:0 0 0 55px rgba(197,220,131,.035),0 0 0 115px rgba(197,220,131,.025)}.hero:after{content:"";position:absolute;width:360px;height:360px;border-radius:50%;background:radial-gradient(circle,rgba(81,151,119,.30),transparent 68%);right:8%;bottom:-210px}.hero-grid{position:relative;z-index:1;display:grid;grid-template-columns:1.15fr .85fr;gap:64px;align-items:center}.eyebrow{font-size:11px;text-transform:uppercase;letter-spacing:.19em;font-weight:800;color:var(--lime)}h1{font-size:clamp(42px,6vw,72px);line-height:1.02;letter-spacing:-.055em;margin:20px 0 24px;max-width:760px}.hero p{font-size:18px;line-height:1.7;color:#d2dfd9;max-width:660px;margin:0 0 30px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap}.btn.light{background:var(--lime);color:var(--ink);border-color:var(--lime)}.btn.outline{background:transparent;border-color:rgba(255,255,255,.4);color:white}.hero-card{background:rgba(255,255,255,.075);border:1px solid rgba(255,255,255,.16);border-radius:26px;padding:28px;backdrop-filter:blur(10px)}.hero-card .mini{color:var(--lime);font-size:11px;text-transform:uppercase;letter-spacing:.15em;font-weight:800}.hero-card h2{font-size:25px;line-height:1.2;margin:12px 0 22px;letter-spacing:-.03em}.orbit{display:grid;grid-template-columns:1fr 1fr;gap:10px}.orbit div{padding:15px;border-radius:15px;background:rgba(255,255,255,.08);font-size:13px;color:#e4eee9}.orbit b{display:block;font-size:20px;color:var(--lime);margin-bottom:3px}.hero-note{font-size:11px;color:#b8c9c0;margin-top:18px}
+section{padding:86px 0}.section-kicker{color:var(--green);font-size:11px;letter-spacing:.18em;text-transform:uppercase;font-weight:850}.section-head{display:flex;justify-content:space-between;align-items:end;gap:35px;margin-bottom:36px}.section-head h2{font-size:clamp(30px,4vw,46px);line-height:1.08;letter-spacing:-.045em;margin:10px 0 0;max-width:680px}.section-head p{color:var(--muted);max-width:440px;margin:0}.intro-grid{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:start}.intro-grid p{font-size:17px;color:#526660;margin-top:0}.principles{display:grid;grid-template-columns:1fr 1fr;gap:12px}.principle{padding:19px;border:1px solid var(--line);border-radius:16px;background:white}.principle b{display:block;margin-bottom:5px}.principle span{font-size:13px;color:var(--muted)}
+.pillars{background:#edf1e9}.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.card{background:white;border:1px solid var(--line);border-radius:var(--radius);padding:24px;min-height:230px;box-shadow:0 6px 20px rgba(18,45,40,.035)}.card-icon{width:44px;height:44px;display:grid;place-items:center;border-radius:14px;background:#e9f1e7;font-size:22px;margin-bottom:20px}.card h3{font-size:18px;margin:0 0 9px;letter-spacing:-.02em}.card p{font-size:13px;color:var(--muted);margin:0}.card ul{padding-left:17px;margin:13px 0 0;font-size:12px;color:#536761}
+.platform{display:grid;grid-template-columns:.9fr 1.1fr;gap:55px;align-items:center}.platform-visual{background:#173b35;border-radius:28px;padding:26px;color:white;min-height:390px;position:relative;overflow:hidden}.platform-visual:after{content:"";position:absolute;width:280px;height:280px;border:1px solid rgba(197,220,131,.35);border-radius:50%;right:-80px;bottom:-100px;box-shadow:0 0 0 32px rgba(197,220,131,.05),0 0 0 70px rgba(197,220,131,.035)}.visual-top{display:flex;justify-content:space-between;color:#c5dc83;font-size:11px;letter-spacing:.12em;text-transform:uppercase;font-weight:800}.coordinate{margin-top:42px;font-size:12px;color:#b7c9c0}.coordinate strong{display:block;font-size:31px;color:white;letter-spacing:-.04em;margin-top:5px}.visual-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:24px;position:relative;z-index:1}.visual-grid div{padding:13px;background:rgba(255,255,255,.09);border-radius:13px;font-size:12px}.visual-grid b{display:block;color:var(--lime);font-size:15px}.platform-copy h2{font-size:clamp(30px,4vw,45px);letter-spacing:-.045em;line-height:1.1;margin:10px 0 18px}.platform-copy>p{color:var(--muted)}.checklist{display:grid;grid-template-columns:1fr 1fr;gap:13px;margin-top:25px}.check{display:flex;gap:10px;font-size:13px;color:#425a53}.check i{font-style:normal;color:var(--green);font-weight:900}
+.project{background:var(--ink);color:white}.project .section-kicker{color:var(--lime)}.project .section-head p{color:#c3d1ca}.project-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.project-box{border:1px solid rgba(255,255,255,.16);background:rgba(255,255,255,.055);border-radius:20px;padding:25px}.project-box h3{margin:0 0 10px;font-size:20px}.project-box p,.project-box li{color:#c4d2cb;font-size:13px}.project-box ul{padding-left:18px;margin-bottom:0}.phase-list{display:grid;gap:12px;margin-top:18px}.phase{display:grid;grid-template-columns:74px 1fr;gap:15px;padding-bottom:12px;border-bottom:1px solid rgba(255,255,255,.13)}.phase:last-child{border:0}.phase span{font-size:11px;color:var(--lime);font-weight:800;letter-spacing:.1em}.phase b{display:block;font-size:14px}.phase small{color:#b7c9c0}
+.evidence{background:#edf1e9}.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:28px 0}.metric{background:white;border:1px solid var(--line);border-radius:18px;padding:22px}.metric strong{font-size:30px;letter-spacing:-.04em;display:block}.metric span{font-size:12px;color:var(--muted)}.notice{border-left:4px solid #b68a3a;background:#fff8e8;padding:17px 19px;border-radius:0 14px 14px 0;color:#675633;font-size:13px}.evidence-foot{font-size:12px;color:var(--muted);margin-top:15px}
+.governance-grid{display:grid;grid-template-columns:1fr 1fr;gap:50px}.governance-grid h2{font-size:clamp(30px,4vw,43px);line-height:1.1;letter-spacing:-.04em;margin:10px 0 16px}.governance-grid p{color:var(--muted)}.governance-list{display:grid;gap:12px}.gov-item{display:flex;gap:15px;padding:16px 0;border-bottom:1px solid var(--line)}.gov-item:last-child{border:0}.gov-num{font-size:12px;color:var(--green);font-weight:900}.gov-item b{display:block}.gov-item span{font-size:13px;color:var(--muted)}
+.partners{background:#e4ece4}.partner-band{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center}.partner-band h2{font-size:clamp(30px,4vw,44px);line-height:1.08;letter-spacing:-.04em;margin:10px 0}.partner-band p{color:var(--muted)}.partner-types{display:flex;flex-wrap:wrap;gap:9px}.partner-types span{background:white;border:1px solid #d4dfd4;padding:10px 13px;border-radius:999px;font-size:12px;font-weight:700;color:#40584f}
+.contact{background:#f6f7f1}.contact-panel{background:var(--lime);border-radius:26px;padding:38px 42px;display:flex;justify-content:space-between;gap:30px;align-items:center}.contact-panel h2{font-size:clamp(28px,4vw,42px);letter-spacing:-.04em;line-height:1.1;margin:0 0 9px}.contact-panel p{margin:0;color:#40533d;max-width:600px;font-size:14px}.contact-panel .btn{background:var(--ink);border-color:var(--ink);white-space:nowrap}
+footer{background:#102b2b;color:#c4d2cb;padding:35px 0}.footer-row{display:flex;justify-content:space-between;gap:25px;align-items:center}.footer-brand{font-weight:800;color:white}.footer-small{font-size:11px;color:#9eb1a8}.footer-links{display:flex;gap:18px;font-size:12px}.footer-links a:hover{color:var(--lime)}
+@media(max-width:900px){.hero-grid,.platform,.intro-grid,.governance-grid,.partner-band{grid-template-columns:1fr}.hero-grid{gap:35px}.cards{grid-template-columns:repeat(2,1fr)}.section-head{display:block}.section-head p{margin-top:15px}.hero-card{max-width:600px}.platform-visual{min-height:330px}.contact-panel{align-items:flex-start;flex-direction:column}}
+@media(max-width:650px){.container{width:min(100% - 30px,1160px)}.nav{height:68px}.menu-btn{display:block}.navlinks{display:none;position:absolute;top:68px;left:0;right:0;padding:20px 22px 24px;background:var(--paper);border-bottom:1px solid var(--line);flex-direction:column;align-items:flex-start;gap:17px}.navlinks.open{display:flex}.nav-cta{display:none}.hero{padding:70px 0 62px}.hero p{font-size:16px}.hero-card{padding:21px}.cards{grid-template-columns:1fr}.card{min-height:auto}.metrics{grid-template-columns:1fr 1fr}.checklist{grid-template-columns:1fr}.project-grid{grid-template-columns:1fr}.contact-panel{padding:28px 23px}.footer-row{align-items:flex-start;flex-direction:column}.orbit{gap:8px}.orbit div{padding:12px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+</style>
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <a class="brand" href="#home" aria-label="CTCNA home"><span class="brand-mark">✳</span><span>CTCNA<small>CAPE TOWN CLIMATE-NATURE ALLIANCE</small></span></a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="navlinks" id="navLinks" aria-label="Main navigation">
+      <a href="#about">About</a><a href="#research">Research</a><a href="#platform">ClimateNatureAI</a><a href="#project">CIEIF initiative</a><a href="#governance">Governance</a>
+    </nav>
+    <a class="nav-cta" href="#contact">Connect with CTCNA ↗</a>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="container hero-grid">
+    <div>
+      <div class="eyebrow">Climate • Water • Biodiversity • Resilience</div>
+      <h1>Science for a climate-resilient Cape Town.</h1>
+      <p>The Cape Town Climate-Nature Alliance (CTCNA) is a multidisciplinary research consortium advancing evidence-based climate resilience, environmental stewardship, and responsible climate intervention governance.</p>
+      <div class="hero-actions"><a class="btn light" href="#about">Discover the Alliance</a><a class="btn outline" href="#research">Explore our research ↓</a></div>
+    </div>
+    <aside class="hero-card" aria-label="Alliance focus areas">
+      <div class="mini">Our shared mission</div>
+      <h2>Connect environmental science with responsible decisions.</h2>
+      <div class="orbit">
+        <div><b>01</b>Climate intelligence</div><div><b>02</b>Water security</div>
+        <div><b>03</b>Nature & biodiversity</div><div><b>04</b>Environmental governance</div>
+      </div>
+      <div class="hero-note">Cape Town, Western Cape · South Africa</div>
+    </aside>
+  </div>
+</section>
+
+<section id="about">
+  <div class="container">
+    <div class="section-head"><div><div class="section-kicker">Who we are</div><h2>A collaborative platform for climate and nature research.</h2></div><p>CTCNA brings complementary disciplines together to understand environmental change and strengthen the evidence behind climate-related decisions.</p></div>
+    <div class="intro-grid">
+      <div><p>Our work connects climate science, hydrology, environmental modelling, geospatial analytics, biodiversity, public participation and environmental governance. We aim to support researchers, communities, public institutions and decision-makers with accessible, transparent and decision-relevant knowledge.</p><p>Based in Cape Town, the Alliance focuses on locally relevant challenges while building methods and partnerships that can inform climate resilience across the Western Cape, South Africa and wider regions.</p></div>
+      <div class="principles">
+        <div class="principle"><b>Evidence first</b><span>Use documented data, methods and independent scientific scrutiny.</span></div>
+        <div class="principle"><b>People-centred</b><span>Recognise community knowledge, participation, equity and public health.</span></div>
+        <div class="principle"><b>Nature-positive</b><span>Consider ecosystem integrity, biodiversity and long-term environmental health.</span></div>
+        <div class="principle"><b>Transparent governance</b><span>Make risks, uncertainty, assumptions and decisions open to review.</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="pillars" id="research">
+  <div class="container">
+    <div class="section-head"><div><div class="section-kicker">Research & action</div><h2>Four connected areas of work.</h2></div><p>Our research agenda links environmental observation and modelling with impact assessment, stakeholder engagement and responsible governance.</p></div>
+    <div class="cards">
+      <article class="card"><div class="card-icon">☀</div><h3>Climate intelligence</h3><p>Understand climate variability, drought, heat and changing environmental conditions.</p><ul><li>Climate-risk and vulnerability analysis</li><li>Historical trends and scenario assessment</li><li>Climate adaptation evidence</li></ul></article>
+      <article class="card"><div class="card-icon">≈</div><h3>Water & hydrology</h3><p>Advance understanding of water resources and catchment responses under climate pressure.</p><ul><li>Soil moisture and water storage</li><li>Groundwater recharge potential</li><li>Flood, runoff and drought assessment</li></ul></article>
+      <article class="card"><div class="card-icon">❋</div><h3>Biodiversity & nature</h3><p>Support ecosystem stewardship and nature-based approaches to resilience.</p><ul><li>Vegetation and ecosystem condition</li><li>Biodiversity sensitivity screening</li><li>Nature-based solution opportunities</li></ul></article>
+      <article class="card"><div class="card-icon">⌘</div><h3>Impact & governance</h3><p>Evaluate potential consequences of climate interventions before decisions are made.</p><ul><li>Environmental and social impact assessment</li><li>Public health and regulatory screening</li><li>Stakeholder engagement and MRV</li></ul></article>
+    </div>
+  </div>
+</section>
+
+<section id="platform">
+  <div class="container platform">
+    <div class="platform-visual">
+      <div class="visual-top"><span>CTCNA research platform</span><span>01 / 04</span></div>
+      <div class="coordinate">Illustrative location profile<strong>ClimateNatureAI</strong></div>
+      <div class="visual-grid">
+        <div><b>Climate</b>Variability & drought</div><div><b>Water</b>Storage & soil moisture</div>
+        <div><b>Flood</b>Saturation & runoff risk</div><div><b>Nature</b>Vegetation & NbS options</div>
+      </div>
+    </div>
+    <div class="platform-copy">
+      <div class="section-kicker">Our enabling platform</div>
+      <h2>ClimateNatureAI turns environmental data into decision-ready insight.</h2>
+      <p>ClimateNatureAI is the Alliance’s integrated environmental intelligence and assessment platform. It is designed to connect location-based climate, water, flood, ecosystem and nature-based solution information with predictive analysis and auditable reporting.</p>
+      <div class="checklist">
+        <div class="check"><i>✓</i><span>Coordinate-based environmental profiles</span></div>
+        <div class="check"><i>✓</i><span>Environmental vulnerability screening</span></div>
+        <div class="check"><i>✓</i><span>Predictive and scenario analysis</span></div>
+        <div class="check"><i>✓</i><span>GIS-ready and reproducible outputs</span></div>
+        <div class="check"><i>✓</i><span>Stakeholder and field-observation workflows</span></div>
+        <div class="check"><i>✓</i><span>Transparent assumptions and uncertainty</span></div>
+      </div>
+      <p style="font-size:12px;margin-top:20px">The platform is being advanced through staged integration of validated Earth-observation and environmental monitoring datasets.</p>
+    </div>
+  </div>
+</section>
+
+<section class="project" id="project">
+  <div class="container">
+    <div class="section-head"><div><div class="section-kicker">Flagship initiative</div><h2>Responsible climate intervention assessment in Cape Town.</h2></div><p>CTCNA’s proposed CIEIF-aligned initiative places environmental oversight, predictive impact assessment and public participation before any field deployment.</p></div>
+    <div class="project-grid">
+      <div class="project-box">
+        <h3>ClimateNatureAI for environmental oversight</h3>
+        <p>The initiative proposes to use ClimateNatureAI to assess environmental, hydrological, ecological, social and governance implications associated with a proposed soil-moisture preservation and carbon-sequestration intervention, including biochar-enhanced biodegradable hydrogel composites as a case study.</p>
+        <ul><li>Environmental baseline and impact assessment</li><li>Predictive environmental and social modelling</li><li>Public-health and ecological risk screening</li><li>Regulatory pathway and permit assessment</li><li>Monitoring, reporting and verification planning</li></ul>
+      </div>
+      <div class="project-box">
+        <h3>From prototype to validated evidence</h3>
+        <p>The project roadmap is designed to strengthen data provenance, model validation, uncertainty reporting and independent review.</p>
+        <div class="phase-list">
+          <div class="phase"><span>PHASE 01</span><div><b>Data integration</b><small>Connect Earth-observation and environmental monitoring sources.</small></div></div>
+          <div class="phase"><span>PHASE 02</span><div><b>Validation</b><small>Test model skill, document limitations and report uncertainty.</small></div></div>
+          <div class="phase"><span>PHASE 03</span><div><b>Engagement</b><small>Integrate community knowledge, feedback and field observations.</small></div></div>
+          <div class="phase"><span>PHASE 04</span><div><b>Governance support</b><small>Provide auditable evidence for independent and regulatory review.</small></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="evidence">
+  <div class="container">
+    <div class="section-head"><div><div class="section-kicker">Research evidence</div><h2>Building on a Cape Town environmental baseline.</h2></div><p>Initial project files include a multi-year environmental sample and preliminary spatial and predictive assessment outputs.</p></div>
+    <div class="metrics">
+      <div class="metric"><strong>2002–2025</strong><span>Historical baseline period</span></div>
+      <div class="metric"><strong>1,685</strong><span>Environmental records in supplied CSV</span></div>
+      <div class="metric"><strong>77</strong><span>Unique sampled coordinates</span></div>
+      <div class="metric"><strong>2026</strong><span>Year-to-date data included</span></div>
+    </div>
+    <div class="notice"><b>Scientific transparency:</b> These figures describe the supplied preliminary assessment files, not a complete municipal monitoring network. The project summary flags the City boundary as not yet validated and the intervention as not yet specified. Modelled soil-moisture relationships do not establish causal intervention effects. Community exposure, public-health impacts, permits and intervention-specific outcomes require additional datasets, specialist review and field evidence.</div>
+    <p class="evidence-foot">The supplied assessment archive reports a Random Forest soil-moisture model evaluated using spatial group holdout (R² ≈ 0.95; MAE ≈ 0.35; RMSE ≈ 0.57 in the source data’s soil-moisture units). These are preliminary model metrics and should be interpreted alongside the limited sample size, data provenance and validation limitations.</p>
+  </div>
+</section>
+
+<section id="governance">
+  <div class="container governance-grid">
+    <div>
+      <div class="section-kicker">Responsible research</div>
+      <h2>Trust, safeguards and accountability are part of the science.</h2>
+      <p>Climate intervention and nature-based approaches must be assessed with care. CTCNA’s approach places environmental integrity, transparent evidence and meaningful participation at the centre of research planning.</p>
+    </div>
+    <div class="governance-list">
+      <div class="gov-item"><div class="gov-num">01</div><div><b>Environmental safeguards</b><span>Screen soil, water, groundwater, biodiversity and ecosystem impact pathways.</span></div></div>
+      <div class="gov-item"><div class="gov-num">02</div><div><b>Community participation</b><span>Engage affected communities, farmers, civil society and public institutions early.</span></div></div>
+      <div class="gov-item"><div class="gov-num">03</div><div><b>Regulatory readiness</b><span>Identify relevant authorisations and ensure activities do not proceed without required approvals.</span></div></div>
+      <div class="gov-item"><div class="gov-num">04</div><div><b>Independent review</b><span>Invite specialist scrutiny of methods, assumptions, findings and uncertainty.</span></div></div>
+      <div class="gov-item"><div class="gov-num">05</div><div><b>Open and reproducible science</b><span>Share non-sensitive outputs, documented workflows and reviewable evidence.</span></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="partners">
+  <div class="container partner-band">
+    <div><div class="section-kicker">A multidisciplinary alliance</div><h2>Better climate decisions emerge from collaboration.</h2><p>CTCNA seeks collaboration across research, public institutions, civil society and communities. The consortium’s partner and membership roster should be confirmed before public launch.</p></div>
+    <div class="partner-types"><span>Universities & research centres</span><span>Climate scientists</span><span>Hydrologists</span><span>GIS & GeoAI specialists</span><span>Biodiversity practitioners</span><span>Municipal & public agencies</span><span>Community organisations</span><span>Environmental NGOs</span><span>Independent reviewers</span></div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="contact-panel">
+      <div><h2>Work with us for a resilient Cape Town.</h2><p>We welcome research collaboration, technical partnerships, community knowledge, independent expertise and institutional engagement.</p></div>
+      <a class="btn" href="mailto:?subject=CTCNA%20Research%20Collaboration&body=I%20would%20like%20to%20learn%20more%20about%20the%20Cape%20Town%20Climate-Nature%20Alliance.">Start a conversation ↗</a>
+    </div>
+    <p style="font-size:11px;color:#71817b;margin:14px 4px 0">Before publishing, replace this general email link with the Alliance’s approved contact address and add confirmed institutional, partner and governance details.</p>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="container footer-row">
+    <div><div class="footer-brand">Cape Town Climate-Nature Alliance</div><div class="footer-small">Climate resilience · Environmental stewardship · Responsible governance</div></div>
+    <div class="footer-links"><a href="#about">About</a><a href="#research">Research</a><a href="#platform">ClimateNatureAI</a><a href="#contact">Contact</a></div>
+    <div class="footer-small">© <span id="year"></span> CTCNA · Cape Town, South Africa</div>
+  </div>
+</footer>
+<script>
+const menuBtn=document.getElementById('menuBtn');
+const navLinks=document.getElementById('navLinks');
+menuBtn.addEventListener('click',()=>{const open=navLinks.classList.toggle('open');menuBtn.setAttribute('aria-expanded',String(open));menuBtn.textContent=open?'×':'☰';});
+navLinks.querySelectorAll('a').forEach(link=>link.addEventListener('click',()=>{navLinks.classList.remove('open');menuBtn.setAttribute('aria-expanded','false');menuBtn.textContent='☰';}));
+document.getElementById('year').textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
